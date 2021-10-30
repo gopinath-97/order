@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: url(./images/pattern-background-desktop.svg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  width: 37rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.card-content {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+.hero-img {
+  width: 100%;
+}
+h1,
+h2 {
+  font-weight: 700;
+  color: #343a40;
+}
+p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: hsl(224, 23%, 55%);
+}
+.icon {
+  height: 4.6rem;
+  width: 4.6rem;
+  border-radius: 50%;
+}
+
+.plans {
+  width: 95%;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.plan {
+  margin-left: -8rem;
+}
+.change-plan:link,
+.change-plan:visited {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+}
+.change-plan:hover,
+.change-plan:active {
+  color: hsl(224, 65%, 46%);
+  text-decoration: none;
+}
+.btn {
+  width: 95%;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-submit:link,
+.btn-submit:visited {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem hsl(224, 23%, 55%);
+}
+.btn-submit:hover,
+.btn-submit:active {
+  background-color: #7284d8;
+  transition: background 0.3s;
+}
+.btn-cancel:visited,
+.btn-cancel:link {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+.btn-cancel:hover {
+  color: black;
+  font-weight: 700;
+}
+@media (min-width: 375px) {
+}
